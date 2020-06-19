@@ -1,0 +1,66 @@
+[
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "status",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "person",
+				"type": "address"
+			},
+			{
+				"name": "_dateTime",
+				"type": "string"
+			}
+		],
+		"name": "addMyHistory",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_des",
+				"type": "string"
+			},
+			{
+				"name": "a",
+				"type": "bool"
+			}
+		],
+		"name": "addTestRecord",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_status",
+				"type": "uint256"
+			}
+		],
+		"name": "updateStatus",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
